@@ -1,0 +1,22 @@
+/* /* CSS Externo */
+h1 {
+        font-size: 70;
+        color: blue;
+      }
+      h2 {
+        color: yellowgreen;
+      }
+
+      #titulo {
+        background-color: rgb(226, 138, 5);
+      }
+
+      .titulo {
+        font-size: 40;
+        color: #5900ff
+    }
+
+      .highlight {
+        color: red;
+        font-weight: bold;
+    }
