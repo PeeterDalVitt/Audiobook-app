@@ -22,7 +22,7 @@ function pausarFaixa() {
 }
 
 function tocarOuPausarFaixa() {
-  if (taTocando === true) {
+  if (taTocando) {
     pausarFaixa();
   } else {
     tocarFaixa();
@@ -38,7 +38,7 @@ function capituloAnterior() {
     capitulo -= 1;
   }
 
-  audio.src = "/Do Zero/audios/" + capitulo + ".mp3";
+  audio.src = "./audios/" + capitulo + ".mp3";
   nomeCapitulo.innerText = "Capítulo " + capitulo;
 }
 
@@ -51,7 +51,7 @@ function proximoCapitulo() {
     capitulo = 1;
   }
 
-  audio.src = "/Do Zero/audios/" + capitulo + ".mp3";
+  audio.src = "./audios/" + capitulo + ".mp3";
   nomeCapitulo.innerText = "Capítulo " + capitulo;
 }
 
