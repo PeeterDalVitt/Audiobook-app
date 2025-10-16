@@ -22,7 +22,7 @@ function pausarFaixa() {
 }
 
 function tocarOuPausarFaixa() {
-  if (taTocando) {
+  if (taTocando === true) {
     pausarFaixa();
   } else {
     tocarFaixa();
